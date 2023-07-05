@@ -44,3 +44,12 @@ to send version/change to github
 
 git push origin main
 '''
+
+
+BUILD DOCKER IMAGE
+'''
+docker build -t <image_name>:<tagname> .
+'''
+
+> Note: image name for docker must be lowercase
+
